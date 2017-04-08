@@ -51,4 +51,7 @@ for k, g in groupby(possible_words, sorted_string):
 Finally, one can take all combinations from the word lists and compare with the remaining allowed pattern.
 Then, permute to check the md5 hash.
 
-A code in sage with parallel is provided for reference.
+A non-optimized code (why?) in sage with parallel is provided for reference.
+
+### optimization and generalization
+Meet in the middle.
